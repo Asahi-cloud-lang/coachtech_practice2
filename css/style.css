@@ -492,6 +492,20 @@ body {
 }
 
 @media screen and (max-width: 768px){
+
+  /* 2回目追加したコード */
+
+  #top-header .flex {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-logo {
+    margin: 0;
+  }
+
+  /* ここまで */
+
   #hamburger {
     width: 40px;
     height: 40px;
@@ -530,16 +544,22 @@ body {
     display: none;
   }
 
+  /* 2回目修正したコード */
+
   .catchcopy {
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
     font-size: 60px;
     font-style: italic;
     font-weight: bold;
     color: #fff;
     line-height: 1;
   }
+
+  /* ここまで */
   
   .news {    
     left: 0;
@@ -567,6 +587,16 @@ body {
     text-align: center;
     color: #fff;
   }
+
+  /* 2回目修正したコード */
+
+  .mission-content {
+    margin: 0 auto;
+    padding: 10% 0 10% 0;
+  }
+
+  /* ここまで */
+
 
   .mission-img {
     width: 40%;
